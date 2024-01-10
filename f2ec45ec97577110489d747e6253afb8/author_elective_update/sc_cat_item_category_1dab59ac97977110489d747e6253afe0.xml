@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Expenses">cb5b15ac97977110489d747e6253af0c</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 17:37:57</sys_created_on>
+        <sys_id>1dab59ac97977110489d747e6253afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Expenses</sys_name>
+        <sys_package display_value="Projetos S.A." source="x_1173448_projet_0">f2ec45ec97577110489d747e6253afb8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Projetos S.A.">f2ec45ec97577110489d747e6253afb8</sys_scope>
+        <sys_update_name>sc_cat_item_category_1dab59ac97977110489d747e6253afe0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 17:37:57</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Projetos S.A.">f2ec45ec97577110489d747e6253afb8</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sc_cat_item_category_1dab59ac97977110489d747e6253afe0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Expenses">cb5b15ac97977110489d747e6253af0c</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-20 17:37:57</sys_created_on><sys_id>1dab59ac97977110489d747e6253afe0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Expenses</sys_name><sys_package display_value="Projetos S.A." source="x_1173448_projet_0">f2ec45ec97577110489d747e6253afb8</sys_package><sys_policy/><sys_scope display_value="Projetos S.A.">f2ec45ec97577110489d747e6253afb8</sys_scope><sys_update_name>sc_cat_item_category_1dab59ac97977110489d747e6253afe0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-20 17:37:57</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1899651042</payload_hash>
+        <record_name>Services.Expenses</record_name>
+        <reverted_from/>
+        <source>b2ec45ec97577110489d747e6253afba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 17:37:57</sys_created_on>
+        <sys_id>55ab59ac97977110489d747e6253afe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c884e3b920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 17:37:57</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>d9ab59ac709771106c67772c371415e3</update_guid>
+        <update_guid_history>d9ab59ac709771106c67772c371415e3:1899651042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Expenses">cddb5dac97977110489d747e6253af3c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 17:38:46</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>5b89815787e5423dab5693bcecb180f9</sys_id>
+        <sys_metadata>1dab59ac97977110489d747e6253afe0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Expenses</sys_name>
+        <sys_package display_value="Projetos S.A." source="x_1173448_projet_0">f2ec45ec97577110489d747e6253afb8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Projetos S.A.">f2ec45ec97577110489d747e6253afb8</sys_scope>
+        <sys_scope_delete display_value="">06f80fbe636e4cd080dd23fa033438a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_1dab59ac97977110489d747e6253afe0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_1dab59ac97977110489d747e6253afe0">55ab59ac97977110489d747e6253afe4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 17:38:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

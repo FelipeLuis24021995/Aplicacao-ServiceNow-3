@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="hasLabels=true" db_object_id="9cd1d52497977110489d747e6253af45" extends="task" label="Refund Requests" max_length="40" name="x_1173448_projet_0_refund_requests" type="collection">
+        <element label="Activities" max_length="40" name="activities" type="string"/>
+        <element choice="1" label="Authorize Payment?" max_length="40" name="authorize_payment" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Expense" max_length="32" name="expense" reference="x_1173448_projet_0_expenses" type="reference"/>
+        <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element choice="1" default="draft" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Analysis" sequence="1" value="analysis"/>
+                <element inactive_on_update="false" label="Authorized Payment" sequence="2" value="authorized_payment"/>
+                <element inactive_on_update="false" label="Rejected Payment" sequence="3" value="rejected_payment"/>
+            </choice>
+        </element>
+        <element label="Title" max_length="40" name="title" type="string"/>
+    </element>
+</database>

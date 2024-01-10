@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="refound" table="x_1173448_projet_0_expenses" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>refound</element>
+            <name>x_1173448_projet_0_expenses</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-20 16:52:08</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>refound</sys_name>
+            <sys_package display_value="Projetos S.A." source="x_1173448_projet_0">f2ec45ec97577110489d747e6253afb8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Projetos S.A.">f2ec45ec97577110489d747e6253afb8</sys_scope>
+            <sys_update_name>sys_choice_x_1173448_projet_0_expenses_refound</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-20 16:52:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>refound</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Authorized</label>
+            <language>en</language>
+            <name>x_1173448_projet_0_expenses</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-20 16:52:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06215de097977110489d747e6253af3b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-20 18:08:42</sys_updated_on>
+            <value>not_authorized</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>refound</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Authorized</label>
+            <language>en</language>
+            <name>x_1173448_projet_0_expenses</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-20 16:52:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2215de097977110489d747e6253af39</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-20 18:08:42</sys_updated_on>
+            <value>authorized</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b54fcd6097977110489d747e6253afa9" label="Expenses" max_length="40" name="x_1173448_projet_0_expenses" type="collection">
+        <element label="Data of Use" max_length="40" name="data_of_use" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Observations" max_length="500" name="observations" type="string"/>
+        <element label="Reason to Use" max_length="500" name="reason_to_use" type="string"/>
+        <element choice="1" default="not_authorized" label="Refound" max_length="40" name="refound" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Authorized" sequence="0" value="not_authorized"/>
+                <element inactive_on_update="false" label="Authorized" sequence="1" value="authorized"/>
+            </choice>
+        </element>
+        <element label="Registered by" max_length="32" name="registered_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Total of Cost" max_length="40" name="total_of_cost" type="price"/>
+        <element choice="1" label="Type of Expense" max_length="40" name="type_of_expense" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accomodation" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Car Park" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Meal" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Transport" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="registered_by"/>
+        </index>
+    </element>
+</database>
